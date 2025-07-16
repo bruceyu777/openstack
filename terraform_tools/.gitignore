@@ -1,0 +1,26 @@
+# ─── Terraform ───────────────────────────────────────────────────────────────
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+*.tfvars
+override.tf
+override.tf.json
+*.tfplan
+crash.log
+.terraform.lock.hcl
+
+# ─── Python / venv ────────────────────────────────────────────────────────────
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ─── IDE / Editor ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ─── OS / Misc ───────────────────────────────────────────────────────────────
+.DS_Store
+EOF
